@@ -1,0 +1,72 @@
+html {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+header span {
+  padding: 20px 10px;
+}
+
+header a {
+  color: seashell;
+}
+
+.content {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  text-align: center;
+}
+
+.our-mission {
+  margin: 0 auto;
+  background-color: black;
+}
+
+#location {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
