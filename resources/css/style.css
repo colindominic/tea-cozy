@@ -42,6 +42,11 @@ header a {
   align-items: center;
 }
 
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
 #mission {
   display: flex;
   flex-direction: column;
@@ -55,12 +60,37 @@ header a {
 .our-mission {
   margin: 0 auto;
   background-color: black;
+  width: 1200px;
 }
 
 #location {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
+  z-index: 0;
+}
+
+#location h2 {
+  margin: 80px 0px 15px 0px;
+}
+
+.store {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  z-index: 5;
+  background-color: black;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.store h3 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.store p {
+    margin: 22px auto;
 }
 
 .contact {
@@ -69,4 +99,5 @@ header a {
 
 .copyright {
   text-align: left;
+  margin-left: 20px;
 }
