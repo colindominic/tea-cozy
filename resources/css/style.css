@@ -12,9 +12,12 @@ header {
   align-items: center;
   width: 100%;
   position: fixed;
-  z-index: 10;
+  top: 0px;
+  z-index: 20;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  margin: 0;
 }
 
 .logo img {
@@ -36,7 +39,7 @@ header a {
 }
 
 .content {
-  padding-top: 70px;
+  padding-top: 69px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,6 +64,34 @@ h2, h3, h4 {
   margin: 0 auto;
   background-color: black;
   width: 1200px;
+}
+
+#teas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+#teas h2 {
+  padding-top: 70px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.item {
+  padding: 15px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 #location {
